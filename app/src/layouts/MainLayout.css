@@ -1,0 +1,17 @@
+.navigator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+    background-color: red;
+}
+
+.navigator button {
+    width: 100px;
+}
